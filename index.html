@@ -52,6 +52,11 @@
 </head>
 
 <body>
+  <script>
+    if (!window.navigator.standalone) {
+      window.location.href = "google.com"
+    }
+  </script>
   	<script>
   if ('serviceWorker' in navigator) {
     // CRITICAL: You must use the exact absolute folder path of your GitHub subfolder
