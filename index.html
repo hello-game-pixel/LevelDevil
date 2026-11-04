@@ -54,7 +54,10 @@
 <body>
   <script>
     if (!window.navigator.standalone) {
-      window.location.href = "google.com"
+      setTimeout(function () {
+	window.location.href = "google.com"
+}, 6000);
+      
     }
   </script>
   	<script>
